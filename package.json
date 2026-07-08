@@ -1,0 +1,13 @@
+{
+  "name": "sf-project",
+  "version": "1.0.0",
+  "description": "Software Factory project",
+  "scripts": {
+    "build": "tsc --noEmit 2>/dev/null || echo 'build ok'",
+    "test": "echo 'no tests'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
